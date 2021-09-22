@@ -13,7 +13,9 @@ Follow the instructions line-by-line.
 1. Open Terminal.  Type:
 
 $ ls<ENTER>
-
+Creative Cloud Files    Downloads               Movies                  Public
+Desktop                 Dropbox                 Music                   old image.png
+Documents               Library                 Pictures
 Copy and paste the output of ls below.
 ----------
 Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
@@ -23,20 +25,23 @@ Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 2a. Type: 
 
 $ ls D<TAB>
-
+bash: syntax error near unexpected token `newline'
 What happens?  Describe it below.
+Error
 ----------
 Desktop/    Documents/  Downloads/
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
+ls: D: No such file or directory
 ----------
 rdrgeerwtger yg erwy brg
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
+bash: rdrgeerwtger: command not found
 ----------
 
 
@@ -47,6 +52,17 @@ rdrgeerwtger yg erwy brg
 $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
+total 119072
+drwxr-xr-x@ 9 cynthiagamene  staff       288 Feb 12  2021 Adobe
+-rw-r--r--@ 1 cynthiagamene  staff   5483897 Dec 16  2020 Pexels Videos 2544523.mp4
+-rw-r--r--@ 1 cynthiagamene  staff   1391845 Sep 16  2020 Sans titre - 5.ai
+-rw-r--r--@ 1 cynthiagamene  staff   1394290 Sep 16  2020 Sans titre - 8.ai
+-rw-r--r--@ 1 cynthiagamene  staff    163324 Dec 14  2020 Untitled Session 4_mixdown.pkf
+-rw-r--r--@ 1 cynthiagamene  staff  10457486 Dec 14  2020 Untitled Session 4_mixdown.wav
+drwxr-xr-x@ 4 cynthiagamene  staff       128 Feb 12  2021 Zoom
+-rw-r--r--@ 1 cynthiagamene  staff   6243137 May 28 10:41 change of major.webarchive
+-rw-r--r--@ 1 cynthiagamene  staff   6242322 May 28 10:36 change_of_curriculum - Google Docs.webarchive
+-rw-r--r--@ 1 cynthiagamene  staff  29572526 Dec 16  2020 production ID_4937573.mp4
 ----------
 
 
@@ -57,6 +73,13 @@ Copy and paste the first *two lines* of output below.
 $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
+.                                               Sans titre - 8.ai
+..                                              Untitled Session 4_mixdown.pkf
+.DS_Store                                       Untitled Session 4_mixdown.wav
+.localized                                      Zoom
+Adobe                                           change of major.webarchive
+Pexels Videos 2544523.mp4                       change_of_curriculum - Google Docs.webarchive
+Sans titre - 5.ai                               production ID_4937573.mp4
 ----------
 
 
@@ -65,8 +88,10 @@ Copy and paste the first *two lines* of output below.
 5.  Type:
 
 <UP><ENTER>
+bash: UP: command not found
 
 What command was repeated?
+None 
 ----------
 
 
@@ -75,8 +100,9 @@ What command was repeated?
 6.  Type:
 
 <UP><UP><UP><DOWN><ENTER>
-
+bash: UP: command not found
 What command was repeated?
+NONE
 ----------
 
 
@@ -87,6 +113,7 @@ What command was repeated?
 $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
+bash: $: command not found
 ----------
 
 
@@ -97,6 +124,7 @@ What is the result of pressing tab?
 $ ls doesnotexist
 
 Copy and paste the output below.
+bash: $: command not found
 ----------
 
 
