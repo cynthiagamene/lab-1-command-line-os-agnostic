@@ -131,6 +131,7 @@ bash: $: command not found
 
 ==========
 9.  What key do I press to go to the previous command?
+Enter
 ----------
 
 
@@ -165,6 +166,7 @@ bash: $: command not found
 $ foo<ENTER>
 
 Copy and paste the output below.
+bash: foo: command not found
 ----------
 
 
@@ -175,6 +177,7 @@ Copy and paste the output below.
 <UP><ENTER>
 
 Copy and paste the output below.
+bash: up: command not found
 ----------
 
 
