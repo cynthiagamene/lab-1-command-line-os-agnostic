@@ -88,11 +88,11 @@ Sans titre - 5.ai                               production ID_4937573.mp4
 5.  Type:
 
 <UP><ENTER>
-bash: UP: command not found
+syntax error near unexpected token `newline'
 
 What command was repeated?
-None 
-----------
+
+----------`newline'
 
 
 
@@ -100,9 +100,10 @@ None
 6.  Type:
 
 <UP><UP><UP><DOWN><ENTER>
-bash: UP: command not found
+syntax error near unexpected token `<'
+
 What command was repeated?
-NONE
+<
 ----------
 
 
@@ -113,8 +114,8 @@ NONE
 $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
-bash: $: command not found
-----------
+
+----------ls: /b: No such file or directory
 
 
 
@@ -124,39 +125,38 @@ bash: $: command not found
 $ ls doesnotexist
 
 Copy and paste the output below.
-bash: $: command not found
-----------
+----------bash: $: command not found
 
 
 
 ==========
 9.  What key do I press to go to the previous command?
-Enter
-----------
+
+----------Enter
 
 
 
 ==========
 10.  Name two flags that we used in this exercise.
-----------
+----------- -a and -l
 
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
-----------
+---------- TAB
 
 
 
 ==========
 12.  What was the main command that we used throughout this exercise?
-----------
+---------- ls
 
 
 
 ==========
 13.  Name one argument that we passed to the command.
-----------
+---------- Documents
 
 
 
@@ -166,8 +166,7 @@ Enter
 $ foo<ENTER>
 
 Copy and paste the output below.
-bash: foo: command not found
-----------
+----------bash: foo: command not found
 
 
 
@@ -177,10 +176,7 @@ bash: foo: command not found
 <UP><ENTER>
 
 Copy and paste the output below.
-bash: up: command not found
-----------
-
-
+----------syntax error near unexpected token `newline'
 
 ==========
 16.  In the following line....
@@ -188,4 +184,4 @@ bash: up: command not found
 $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
-----------
+----------ls: Desktop: No such file or directory
