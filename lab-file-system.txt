@@ -29,6 +29,7 @@ Check that the output ends with mtec1002 (something like this: /Users/[yourname]
 If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
+/Users/cynthiagamene/mtec1003
 ----------
 
 
@@ -40,6 +41,7 @@ $ mkdir animals
 $ ls
 
 Copy and paste the output below.
+animals
 ----------
 
 
@@ -51,6 +53,7 @@ $ mkdir food
 $ ls
 
 Copy and paste the output below.
+animals food
 ----------
 
 
@@ -58,8 +61,6 @@ Copy and paste the output below.
 ==========
 7. Type:
 
-$ mkdir -p foo/bar/baz/qux
-$ ls
 
 Copy and paste the output below.
 ----------
