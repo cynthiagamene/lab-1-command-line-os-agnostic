@@ -29,7 +29,7 @@ Check that the output ends with mtec1002 (something like this: /Users/[yourname]
 If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
-----------
+----------/Users/cynthiagamene/mtec1003
 
 
 
@@ -40,7 +40,7 @@ $ mkdir animals
 $ ls
 
 Copy and paste the output below.
-----------
+----------animals
 
 
 
@@ -51,7 +51,7 @@ $ mkdir food
 $ ls
 
 Copy and paste the output below.
-----------
+----------animals food
 
 
 
@@ -62,7 +62,7 @@ $ mkdir -p foo/bar/baz/qux
 $ ls
 
 Copy and paste the output below.
-----------
+----------animals foo     food
 
 
 
@@ -73,7 +73,7 @@ $ cd foo/bar/baz/qux
 $ pwd
 
 Copy and paste the output below.
-----------
+----------/Users/cynthiagamene/mtec1003/foo/bar/baz/qux
 
 
 
@@ -84,7 +84,7 @@ $ cd ../..
 $ pwd
 
 Copy and paste the output below.
-----------
+----------/Users/cynthiagamene/mtec1003/foo/bar
 
 
 
@@ -95,7 +95,7 @@ $ cd -
 $ pwd
 
 Copy and paste the output below.
-----------
+----------/Users/cynthiagamene/mtec1003/foo/bar/baz/qux
 
 
  
@@ -106,7 +106,7 @@ $ cd ../../../..
 $ pwd
 
 Copy and paste the output below.
-----------
+----------/Users/cynthiagamene/mtec1003
 
 
 
@@ -118,7 +118,9 @@ $ rmdir animals
 $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
-----------
+----------total 0
+drwxr-xr-x  2 cynthiagamene  staff  64 Sep 27 23:04 animals
+drwxr-xr-x  3 cynthiagamene  staff  96 Sep 27 23:11 foo
 
 
 
@@ -129,7 +131,7 @@ $ cd ~
 $ pwd
 
 Copy and paste the output into the space below.
-----------
+----------/Users/cynthiagamene
 
 
 
@@ -140,7 +142,7 @@ $ cd /mnt (if your on linux) or cd /Volumes (if your on a mac)
 $ pwd
 
 Copy and paste the output into the space below.
-----------
+----------/Users/cynthiagamene/mtec1003
 
 
 
@@ -151,7 +153,7 @@ $ cd /unknown_folder
 $ pwd
 
 Copy and paste the output into the space below.
-----------
+----------/Users/cynthiagamene/mtec1003
 
 
 
@@ -162,13 +164,13 @@ $ cd ~/mtec1003
 $ pwd
 
 Copy and paste the output into the space below.
-----------
+----------/Users/cynthiagamene/mtec1003
 
 
 
 ==========
 16a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
-----------
+----------mkdir
 
 
 
@@ -191,7 +193,7 @@ strawbery
 lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
-----------
+----------mkdir 
 
 
 
@@ -199,7 +201,7 @@ Use only one command to make all of these new directories.  Write what command y
 18. Make another directory called aardvark.  
 
 Write the command you used to create the directory below:
-----------
+----------cd~/aardvark
 
 
 
@@ -207,7 +209,7 @@ Write the command you used to create the directory below:
 19. List the files and directories in the current directory using the long format.  
 
 What is the modified date of the aardvark directory?
-----------
+----------Sep 27 23:35
 
 
 
@@ -219,7 +221,7 @@ What is the modified date of the aardvark directory?
 * baz should be inside bar
 
 What command did you use?
-----------
+----------mkdir -p
 
 
 
@@ -227,7 +229,7 @@ What command did you use?
 21. Change your directory so that you're in the inner most directory (baz)
 
 What command did you use?
-----------
+----------cd ../..
 
 
 
@@ -235,45 +237,45 @@ What command did you use?
 22. Change your directory so that you're two directories up (foo)
 
 What command did you use?
-----------
+----------mkdir
 
 
 ==========
 23. What command is used to delete empty directories?
-----------
+----------rmdir
 
 
 
 ==========
 24. What command is used to print out your current working directory?
-----------
+----------pwd
 
 
 
 ==========
 25. What flag do I pass to ls to print out all files?
-----------
+---------- -l
 
 
 
 ==========
 26. What's the shortcut for home directory?
-----------
+---------- cd~
 
 
 
 ==========
 27. What's a pathname?
-----------
+----------a statement of the location of a file in the system.
 
 
 
 ==========
-28. What's a directory?
-----------
+28.  what's a directory?
+----------a directory is a collection of files typically created for organizational purposes.
 
 
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
-----------
+---------- (../..)
